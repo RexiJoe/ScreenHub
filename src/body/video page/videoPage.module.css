@@ -1,0 +1,373 @@
+.videoPage{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-shrink: 2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    min-width: 370px;
+    gap: 10px;
+}
+
+.videoBox{
+    width: 100%;
+    min-width: 370px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.videoPlayer{
+    width: 100%;
+}
+
+.title{
+    width: 90%;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.info{
+    width: 90%;
+    display: flex;
+}
+
+.userCard{
+    width: 25%;
+    /* height: 100px; */
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid rgb(30, 30, 30);
+}
+
+.userCardContainer{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.userCardImg{
+    /* width: 30%; */
+    height: 100%;
+}
+
+.userCardImg img{
+    background-color: antiquewhite;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.nameFollowers{
+    width: 70%;
+}
+
+.userCardWords{
+    font-size: 13px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 4px;
+    overflow: hidden;
+    color: white;
+}
+
+.userCardFollow{
+    background-color: rgb(30, 30, 30);
+    height: 30px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    /* margin: 5px 0px; */
+    border: 2px solid red;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+    font-weight: 550;
+    user-select: none;
+    margin: 5px 0px;
+}
+
+.userCardFollow:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+.viewsDateButtons{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.viewsDate{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.viewsDateWords{
+    display: flex;
+    height: 20px;
+    font-size: 13px;
+    margin: 0px 5px;
+    color: rgb(180, 180, 180);
+}
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    gap: 10px;
+}
+
+.buttons{
+    font-size: 13px;
+    /* background-color: black; */
+    color: rgb(180, 180, 180);
+    padding: 4px 10px;
+    margin: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+    border: 3px solid rgb(30, 30, 30);
+    font-weight: 550;
+}
+
+
+.buttonsLike{
+    height: 15px;
+    width: 15px;
+    padding-left: 3px;
+}
+
+.buttonsDislike{
+    height: 15px;
+    width: 15px;
+    padding-left: 3px;
+}
+
+.buttonsSave{
+    height: 15px;
+    width: 15px;
+    padding-left: 3px;
+}
+
+.buttons:hover .buttonsLike{
+    color: rgb(0, 255, 0);
+}
+
+.buttons:hover .buttonsDislike{
+    color: rgb(255, 0, 0);
+}
+
+.buttons:hover .buttonsSave{
+    color: rgb(255, 255, 255);
+}
+
+.descriptionBox{
+    width: 100%;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 30px;
+    border: 3px solid rgb(30, 30, 30);
+    color: rgb(180, 180, 180);
+}
+
+.description{
+    display: flex;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 550;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.showMore{
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    left: 50%;
+    translate: -50%;
+    background-color: rgb(30, 30, 30);
+    color: rgb(180, 180, 180);
+    font-size: 15px;
+    font-weight: 600;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    /* margin-bottom: 5px; */
+    cursor: pointer;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+}
+
+.showMore:hover{
+    color: white;
+}
+
+
+.commentsBox{
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.commentWord{
+    display: flex;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 550;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.comment{
+    background-color: rgb(40, 40, 40);
+    /* width: 80%; */
+    /* max-height: 140px; */
+    display: flex;
+    margin-bottom: 5px;
+    position: relative;
+    border: 3px solid rgb(30, 30, 30);
+    border-radius: 5px;
+}
+
+.commentImg{
+    height: 100%;
+    display: flex;
+}
+
+.commentImg img{
+    background-color: bisque;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.commentContainer{
+    width: 90%;
+    /* max-height: 100px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.commentName{
+    align-self: flex-start;
+    font-size: 15px;
+    font-weight: 550;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.commentText{
+    font-size: 14px;
+    /* width: 100%; */
+    align-self: flex-start;
+    max-height: 100px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    color: rgb(180, 180, 180);
+}
+
+.commentMore{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.70);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.moreComments{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: -50%;
+    font-size: 15px;
+    font-weight: 600;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 5px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.moreComments:hover{
+    color: white;
+}
+
+.sideList{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 10px;
+}

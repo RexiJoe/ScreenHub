@@ -1,0 +1,70 @@
+.header{
+    width: 100%;
+    min-height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+
+}
+
+.firstContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.secondContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.AiOutlineMenu{
+    width: 25px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.arrowMenu{
+    width: 25px;
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+    display: none;
+}
+
+.FiChevronDown{
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    
+
+    .AiOutlineMenu{
+        display: none;
+    }
+
+    .firstContainer{
+        width: 150px;
+    }
+    
+    .FiChevronDown{
+        display: flex;
+    }
+
+    .arrowMenu{
+        display: flex;
+    }
+}

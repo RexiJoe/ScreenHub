@@ -1,0 +1,21 @@
+.title1{
+    font-size: 20px;
+    color: white;
+    user-select: none;
+}
+
+.title2{
+    font-size: 20px;
+    color: red;
+    user-select: none;
+}
+
+.FaDesktop{
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+.videoList{
+    margin-top: 100px;
+    width: 100vw;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+}
+
+.videos{
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-auto-rows: minmax(200px 300px);
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.videoCardContainer{
+    /* width: 90%; */
+    min-width: 170px;
+    /* height: auto; */
+    box-sizing: border-box;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.videoCardContainer:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.videoCardPreview{
+    /* width: 100%; */
+    /* height: 180px; */
+    background-color: antiquewhite;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* .videoCardPreview img{
+
+} */
+
+.videoCardPreview img{
+    border-radius: 5px;
+}
+
+.insideInfo{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4px;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+.name{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+}
+
+.name:hover{
+    color: rgb(30, 30, 30);
+}
+
+.time{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+    background-color: rgb(255, 0, 0);
+    padding: 0px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    margin-top: 6px;
+    border-radius: 50px;
+}
+
+.infoContainer{
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.userLogoContainer{
+    background-color: transparent;
+    /* width: 20%; */
+    /* height: 100%; */
+}
+
+.textContainer{
+    width: 75%;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.otherContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.otherContainer div{
+    height: 20px;
+    color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 5px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.title{
+    width: 100%;
+    min-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    width: 100%;
+    height: 18px;
+    color: rgb(180, 180, 180);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
