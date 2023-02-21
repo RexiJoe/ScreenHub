@@ -27,7 +27,7 @@ function LoginPage(){
             return
         }
 
-        fetch("http://localhost:3000/login", {
+        fetch("https://screen-hub-server.vercel.app/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

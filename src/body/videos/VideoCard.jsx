@@ -16,7 +16,7 @@ function VideoCard({title, username, coverID, videoID}){
     return(
         <div className={styles.videoCardContainer} onClick={toVideoPage} >
             <div className={styles.videoCardPreview} >
-                <img src={`http://localhost:3000/cover/${coverID}`} width={250} height={140} />
+                <img src={`https://screen-hub-server.vercel.app/cover/${coverID}`} width={250} height={140} />
                 <div className={styles.insideInfo} >
 
                     <div className={styles.name} >{username}</div>

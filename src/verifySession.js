@@ -6,7 +6,7 @@ export default async function VerifySession(){
     const data = {
         token: localStorage.getItem("SH_ACCESS_TOKEN")
     }
-    const status = await fetch("http://localhost:3000/verify/session", {
+    const status = await fetch("https://screen-hub-server.vercel.app/verify/session", {
         method: "POST",
         headers: {
             "Content-Type":"application/json"

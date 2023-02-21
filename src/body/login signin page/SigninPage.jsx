@@ -31,7 +31,7 @@ function SigninPage(){
             return
         }
 
-        fetch("http://localhost:3000/register", {
+        fetch("https://screen-hub-server.vercel.app/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

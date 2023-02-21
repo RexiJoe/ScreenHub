@@ -8,7 +8,7 @@ function VideoList(){
     const [list, setList] = useState([]);
 
     useEffect(()=>{
-        fetch("http://localhost:3000/list")
+        fetch("https://screen-hub-server.vercel.app/list")
             .then(res=> res.json())
             .then((data)=>{
                 setList(data);

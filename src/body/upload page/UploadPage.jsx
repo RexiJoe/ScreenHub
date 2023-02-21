@@ -60,7 +60,7 @@ function UploadPage(){
             setProgress(Math.round(percentage))
         })
 
-        ajax.open("POST", "http://localhost:3000/upload")
+        ajax.open("POST", "https://screen-hub-server.vercel.app/upload")
         ajax.send(formData)
     }
 

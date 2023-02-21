@@ -18,13 +18,13 @@ function VideoPage(){
     const [videoData, setVideoData] = useState({})
 
     useEffect(()=>{
-        fetch("http://localhost:3000/list")
+        fetch("https://screen-hub-server.vercel.app/list")
             .then(res=> res.json())
             .then((data)=>{
                 setList(data);
         })
 
-        fetch("http://localhost:3000/getvideoinfo",{
+        fetch("https://screen-hub-server.vercel.app/getvideoinfo",{
             method: "POST",
             headers:{
                 "Content-Type": "application/json"

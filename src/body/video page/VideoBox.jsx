@@ -10,7 +10,7 @@ function VideoBox({title, username, date}){
 
     return(
         <div className={styles.videoBox} >
-            <video className={styles.videoPlayer} controls autoPlay  > <source src={`http://localhost:3000/video/${videoID}`} type="video/mp4" /> </video>
+            <video className={styles.videoPlayer} controls autoPlay  > <source src={`https://screen-hub-server.vercel.app/video/${videoID}`} type="video/mp4" /> </video>
 
             <h1 className={styles.title} >{title}</h1>
 
