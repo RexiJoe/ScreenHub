@@ -19,7 +19,7 @@
 
 .videoCardContainer{
     /* width: 90%; */
-    min-width: 170px;
+    width: 250px;
     /* height: auto; */
     box-sizing: border-box;
     padding-bottom: 4px;
