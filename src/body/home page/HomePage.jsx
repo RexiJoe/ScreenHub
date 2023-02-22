@@ -6,7 +6,7 @@ import styles from "./home.module.css"
 function HomePage(){
     return(
         <div className={styles.home} >
-            <Slider/>
+            {/* <Slider/> */}
             <VideoList/>
         </div>
     )
